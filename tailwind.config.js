@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  important: '#root',
   theme: {
     extend: {
       colors: {
@@ -29,9 +30,5 @@ export default {
       // Add more custom configurations as needed
     },
   },
-  plugins: [
-    require('@tailwindcss/forms'), // For styling forms
-    require('@tailwindcss/typography'), // For typography styles
-    require('@tailwindcss/aspect-ratio'), // For aspect ratio utilities
-  ],
+  plugins: [],
 }
